@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'shuuubhraj', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,44 +11,24 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
+    linkedin: 'shuuubhraj',
+    twitter: 'shuuubhraj',
+    instagram: 'shuuubhraj',
+    website: 'https://shubhraj.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'contact@shubhraj.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Python',
     'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
-  experiences: [
+  /* experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -63,51 +43,57 @@ const config = {
       to: 'August 2021',
       companyLink: 'https://example.com',
     },
-  ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
   ], */
+  certifications: [
+    {
+      name: 'Introduction to Cybersecurity',
+      body: 'Issued by Cisco',
+      year: 'March 2021',
+      link: 'https://www.credly.com/badges/e05b1436-03f8-4c62-a810-b625d0f995f9?source=linked_in_profile',
+    },
+    {
+      name: 'Google Cloud Platform Fundamentals for AWS Professionals',
+      body: 'Google Cloud - Minnesota USA ',
+      year: 'April 2021',
+      link: 'https://www.coursera.org/account/accomplishments/verify/PG2H56YL6PKS',
+    },
+  ], 
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Winners English High School',
+      degree: 'Higher Secondary School Certificate (HSC)',
+      from: '2005',
       to: '2019',
     },
+     {
+      institution: 'Government Polytechnic, Dahod',
+      degree: 'Computer Engineering',
+      from: '2019',
+      to: '2022',
+    },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'ITM (SLS) Baroda University (ITMBU)',
+      degree: 'CSE with Specialization in Cyber Security',
+      from: '2022',
+      to: '2025',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Rosyobook - " Rent or Sell your Old Book ",
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+        'The project 𝐑𝐨𝐬𝐲𝐨𝐁𝐨𝐨𝐤 was an android application , developed to give a platform to students for trading second hand books online among themselves easily, Application use to provide a list of all books which are listed to be sell or to be rented with an option to buy or contact the seller directly. The main purpose is to connect a student who want to buy or rent a Second hand book with student who want to sell or rent his old semester books',
+      imageUrl: 'https://lh3.googleusercontent.com/a/AAcHTtd2f-WGZfNiK1QpLNSQeRYuSi_6dqAsI5NjTZ6QcaIN9A=s360-c-no',
       link: 'https://example.com',
     },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+  
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +105,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'synthwave',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,11 +165,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Made by <a 
+      class="text-primary" href="https://github.com/shuuubhraj"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >@Shuuubhraj</a> with ❤️`,
 };
 
 export default config;
