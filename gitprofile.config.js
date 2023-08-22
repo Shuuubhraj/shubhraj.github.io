@@ -84,7 +84,6 @@ const config = {
     {
       title: 'Rosyobook - Rent or Sell your Old Book',
       description:
-        'Jul 2021 - May 2022'
         'Associated to GP Dahod',
       imageUrl: 'https://lh3.googleusercontent.com/a/AAcHTtd2f-WGZfNiK1QpLNSQeRYuSi_6dqAsI5NjTZ6QcaIN9A=s360-c-no',
       link: 'https://example.com',
