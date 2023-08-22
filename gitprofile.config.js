@@ -82,11 +82,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Rosyobook - " Rent or Sell your Old Book ",
+      title: '',
       description:
-        'The project 𝐑𝐨𝐬𝐲𝐨𝐁𝐨𝐨𝐤 was an android application , developed to give a platform to students for trading second hand books online among themselves easily, Application use to provide a list of all books which are listed to be sell or to be rented with an option to buy or contact the seller directly. The main purpose is to connect a student who want to buy or rent a Second hand book with student who want to sell or rent his old semester books',
-      imageUrl: 'https://lh3.googleusercontent.com/a/AAcHTtd2f-WGZfNiK1QpLNSQeRYuSi_6dqAsI5NjTZ6QcaIN9A=s360-c-no',
-      link: 'https://example.com',
+        '',
+      imageUrl: '',
+      link: '',
     },
   
   ],
