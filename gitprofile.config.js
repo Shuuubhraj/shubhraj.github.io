@@ -23,10 +23,17 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'HTML - CSS',
+    'Email Infrastructure'
+    'Linux - Ubuntu'
+    'MySQL',
+    'Networking',
+    'Cryptography',
     'Python',
     'PHP',
-    'MySQL',
-    'CSS',
+    'AWS',
+    'Azure',
+    'Heroku',
   ],
   /* experiences: [
     {
@@ -80,7 +87,7 @@ const config = {
   ],
 
 // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+  /* externalProjects: [
     {
       title: 'Rosyobook - Rent or Sell your Old Book',
       description:
@@ -96,7 +103,7 @@ const config = {
       link: '',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
+  */ // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
