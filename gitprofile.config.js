@@ -1,5 +1,3 @@
-// gitprofile.config.js
-
 const config = {
   github: {
     username: 'shuuubhraj', // Your GitHub org/user name. (Required)
@@ -24,8 +22,8 @@ const config = {
   },
   skills: [
     'HTML - CSS',
-    'Email Infrastructure'
-    'Linux - Ubuntu'
+    'Email Infrastructure',
+    'Linux - Ubuntu',
     'MySQL',
     'Networking',
     'Cryptography',
@@ -35,22 +33,6 @@ const config = {
     'Azure',
     'Heroku',
   ],
-  /* experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ], */
   certifications: [
     {
       name: 'Introduction to Cybersecurity',
@@ -60,11 +42,11 @@ const config = {
     },
     {
       name: 'Google Cloud Platform Fundamentals for AWS Professionals',
-      body: 'Google Cloud - Minnesota USA ',
+      body: 'Google Cloud - Minnesota USA',
       year: 'April 2021',
       link: 'https://www.coursera.org/account/accomplishments/verify/PG2H56YL6PKS',
     },
-  ], 
+  ],
   education: [
     {
       institution: 'Winners English High School',
@@ -72,7 +54,7 @@ const config = {
       from: '2005',
       to: '2019',
     },
-     {
+    {
       institution: 'Government Polytechnic, Dahod',
       degree: 'Computer Engineering',
       from: '2019',
@@ -85,25 +67,15 @@ const config = {
       to: '2025',
     },
   ],
-
-// To hide the `My Projects` section, keep it empty.
-  /* externalProjects: [
+  externalProjects: [
     {
       title: 'Rosyobook - Rent or Sell your Old Book',
-      description:
-        'Associated to GP Dahod',
+      description: 'Associated to GP Dahod',
       imageUrl: 'https://lh3.googleusercontent.com/a/AAcHTtd2f-WGZfNiK1QpLNSQeRYuSi_6dqAsI5NjTZ6QcaIN9A=s360-c-no',
       link: 'https://example.com',
     },
-    {
-      title: '',
-      description:
-        '',
-      imageUrl: '',
-      link: '',
-    },
+    // ... add more external projects if needed
   ],
-  */ // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
@@ -112,60 +84,18 @@ const config = {
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
   themeConfig: {
     defaultTheme: 'synthwave',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Hide the ring in Profile picture
     hideAvatarRing: false,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
+      // ... list of available themes
     ],
-
-    // Custom theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -176,9 +106,7 @@ const config = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made by <a 
+  footer: `Made by <a
       class="text-primary" href="https://github.com/shuuubhraj"
       target="_blank"
       rel="noreferrer"
