@@ -46,6 +46,18 @@ const config = {
       year: 'April 2021',
       link: 'https://www.coursera.org/account/accomplishments/verify/PG2H56YL6PKS',
     },
+    {
+      name: 'Cloud Platform for Developers: AWS, Azure, and GCP',
+      body: 'LinkedIn Learning',
+      year: 'March 2021',
+      link: 'https://onedrive.live.com/?authkey=%21AO3Hu3ciN2h5Xp4&id=782F7CD833EAE60A%21114&cid=782F7CD833EAE60A&parId=root&parQt=sharedby&o=OneUp',
+    },
+    {
+      name: 'The Fundamental Of Digital Marketing',
+      body: 'Google',
+      year: 'April 2020',
+      link: 'https://onedrive.live.com/?authkey=%21ALBgVJC74BYeC04&id=782F7CD833EAE60A%21113&cid=782F7CD833EAE60A&parId=root&parQt=sharedby&o=OneUp',
+    },
   ],
   education: [
     {
@@ -67,7 +79,7 @@ const config = {
       to: '2025',
     },
   ],
-  externalProjects: [
+ /* externalProjects: [
     {
       title: 'Rosyobook - Rent or Sell your Old Book',
       description: 'Associated to GP Dahod',
@@ -75,7 +87,7 @@ const config = {
       link: 'https://example.com',
     },
     // ... add more external projects if needed
-  ],
+  ],*/
   blog: {
     source: '', // medium | dev
     username: '', // to hide blog section, keep it empty
