@@ -35,6 +35,12 @@ const config = {
   ],
   certifications: [
     {
+      name: 'Foundations of Cybersecurity',
+      body: 'Issued by Google',
+      year: 'Sept 2023',
+      link: 'https://www.coursera.org/account/accomplishments/verify/RWUCCBRXABPP',
+    },
+    {
       name: 'Introduction to Cybersecurity',
       body: 'Issued by Cisco',
       year: 'March 2021',
